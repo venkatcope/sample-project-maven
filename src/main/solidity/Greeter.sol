@@ -6,7 +6,7 @@ contract Mortal {
     /* Define variable owner of the type address*/
     address owner;
 
-    /* this function is executed at initialization and sets the owner of the contract */
+    /* this function is executed at initialization and sets the owner of the contract 001 */
     constructor () public { owner = msg.sender; }
 
     /* Function to recover the funds on the contract */
